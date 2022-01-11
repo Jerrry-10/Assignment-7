@@ -7,7 +7,7 @@ import Appcomponent from './components/Appcomponent';
 function App() {
   return (
     <div className="App">
-      <h1>Enter your gif</h1>    
+      <h1 className='bg-dark text-light p-3'>Get your gifs</h1>    
       <Appcomponent/> 
       <SearchField/>
     </div>

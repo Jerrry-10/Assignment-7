@@ -9,6 +9,7 @@ export default function SearchField() {
         await axios.get(`http://api.giphy.com/v1/gifs/search?q=${input}&api_key=6nm9q7cNwt2dMkVdxrP4HeDkjw8dcVOt`)
         .then(response =>{
             setResults(response.data.data[1].images.original.url)
+            
             console.log(response.data.data[1].images.original.url)
         })}
     }//response.data.data.images.original.url
