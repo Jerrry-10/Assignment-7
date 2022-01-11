@@ -22,6 +22,7 @@ export default function SearchField() {
             <button type="button" className="btn btn-primary" onClick={search}>Search</button>
             <div>
             <img src = {Results}></img>
+            <img src = {Results}></img>
             </div>
         </div>
     )
