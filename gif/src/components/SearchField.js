@@ -19,8 +19,10 @@ export default function SearchField() {
     return (
         <div className='App'>
         <div>
+           
             <input type="text" id = "input"></input>
             <button type="button" className="btn btn-primary" onClick={search}>Search</button>
+            <GifCard/>
             </div>
             {
                 Results.map(e =>{
